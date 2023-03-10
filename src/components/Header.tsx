@@ -1,11 +1,12 @@
 import React from 'react'
+import logo from '../assets/img/logo-02.png'
 
 const Header = () => {
     return (
         <div className='bg-orange-100 flex justify-between p-5'>
             <div className='w-2/6'>
-                <a href="/">
-                    <img src="" alt="" />
+                <a href="/" className='flex space-x-2'>
+                    <img src={logo} width={40} height={40} alt="" />
                     <h1 className='text-2xl font-bold'>Apple Shope</h1>
                 </a>
             </div>
